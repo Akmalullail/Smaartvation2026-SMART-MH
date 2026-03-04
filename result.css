@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background-color: #eef1f5;
+}
+
+/* Navbar */
+.navbar {
+    height: 60px;
+    background-color: #e4e8ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo {
+    font-weight: 600;
+    color: #3a5f8a;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3a5f8a;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    padding: 30px 60px;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Risk Summary Layout */
+.risk-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.risk-left h3 {
+    color: #4a6fa5;
+    margin-bottom: 8px;
+}
+
+.risk-left h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+.risk-center {
+    flex: 1;
+    text-align: center;
+}
+
+/* Badge */
+.badge {
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.moderate {
+    background-color: #d7e3f3;
+    color: #3a5f8a;
+}
+
+/* Chart */
+.risk-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 100px;
+}
+
+.bar {
+    width: 18px;
+    background-color: #3a5f8a;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Text Sections */
+.card h3 {
+    margin-bottom: 12px;
+    color: #3a5f8a;
+}
+
+.card p {
+    color: #4a6572;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.card ul {
+    margin-bottom: 20px;
+    padding-left: 18px;
+}
+
+.card li {
+    margin-bottom: 8px;
+    color: #4a6572;
+    font-size: 14px;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #3a5f8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2e4c70;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #555;
+}
