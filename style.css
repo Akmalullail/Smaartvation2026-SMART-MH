@@ -159,6 +159,10 @@ body {
     transition: 0.3s;
 }
 
+.play-icon button:hover {
+    background-color: #2f4e73;
+}
+
 /* Chart */
 .chart {
     display: flex;
