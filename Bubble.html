@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART-MH Screening</title>
+    <link rel="stylesheet" href="Bubble.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="chat-wrapper">
+        <div class="chat-box" id="chatBox">
+        
+            <!-- AI MESSAGE -->
+            <div class="message ai">
+                <div class="bubble">
+                    Halo! Salam kenal saya SMART-MH AI. Saya akan membantu anda untuk memahami kondisi mental anda. Mari kita mulai dengan beberapa pertanyaan sederhana.  
+                    Apakah anda sering merasa sakit kepala?
+                </div>
+            </div>
+        
+            <!-- USER MESSAGE -->
+        <div class="message user">
+        <div class="bubble">
+            Ya, Aku sering merasa sakit kepala belakagan ini
+        </div>
+    </div>
+
+<!-- AI MESSAGE -->
+    <div class="message ai">
+        <div class="bubble">
+            Terimakasih, berdasarkan jawaban anda, saya akan memberikan beberapa pertanyaan lanjutan untuk memahami kondisi anda lebih baik.
+            Apakah nafsu makan anda berkurang?
+    <div class="options">
+
+    <button onclick="sendAnswer('Ya')">Ya</button>
+    <button onclick="sendAnswer('Cukup')">Cukup</button>
+    <button onclick="sendAnswer('Tidak sama sekali')">Tidak sama sekali</button>
+
+    </div>
+
+    </div>
+    </div>
+
+</div>
+
+<!-- finish button below chat -->
+<div class="finish-container">
+    <button id="finishBtn" onclick="finishChat()">Selesai</button>
+</div>
+
+<script src="Bubble.js"></script>
+
+</body>
+</html>
