@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#eef2f7,#e3eaf3);
+padding:40px;
+display:flex;
+justify-content:center;
+}
+
+.container{
+width:800px;
+}
+
+h2{
+color:#3a5f8a;
+margin-bottom:5px;
+}
+
+.subtitle{
+color:#6b7c93;
+margin-bottom:25px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.06);
+margin-bottom:25px;
+}
+
+.card h3{
+color:#3a5f8a;
+margin-bottom:15px;
+}
+
+/* FORM */
+
+.form-group{
+margin-bottom:15px;
+}
+
+label{
+display:block;
+font-size:14px;
+margin-bottom:5px;
+color:#2c3e50;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+border:1px solid #d0d7e2;
+border-radius:6px;
+font-size:14px;
+}
+
+textarea{
+resize:none;
+height:80px;
+}
+
+/* QUESTIONS */
+
+.question{
+margin-bottom:18px;
+}
+
+.question p{
+font-size:14px;
+color:#2c3e50;
+margin-bottom:8px;
+}
+
+.radio-group{
+display:flex;
+gap:20px;
+}
+
+.radio-group label{
+font-size:14px;
+cursor:pointer;
+}
+
+/* BUTTON */
+
+.btn-submit{
+width:100%;
+padding:12px;
+border:none;
+background:#3a5f8a;
+color:white;
+font-size:15px;
+border-radius:8px;
+cursor:pointer;
+transition:.2s;
+}
+
+.btn-submit:hover{
+background:#2f4e73;
+}
