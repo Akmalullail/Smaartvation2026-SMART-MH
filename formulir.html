@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMART-MH Form</title>
+
+<link rel="stylesheet" href="formulir.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Formulir Data Pengguna</h2>
+    <p class="subtitle">Silakan isi data berikut dengan benar dan lengkap</p>
+
+    <!-- BOX 1 -->
+    <div class="card">
+        <h3>Data Pribadi</h3>
+
+        <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama lengkap">
+        </div>
+
+        <div class="form-group">
+            <label>Tempat, Tanggal Lahir</label>
+            <input type="text" placeholder="Contoh: Karawang, 12 Januari 2007">
+        </div>
+
+        <div class="form-group">
+            <label>Alamat</label>
+            <textarea placeholder="Masukkan alamat lengkap"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>NISN</label>
+            <input type="text" placeholder="Masukkan NISN">
+        </div>
+
+        <div class="form-group">
+            <label>Asal Sekolah</label>
+            <input type="text" placeholder="Nama sekolah">
+        </div>
+
+        <div class="form-group">
+            <label>Kelas</label>
+            <input type="text" placeholder="Contoh: XI IPA 1">
+        </div>
+
+        <div class="form-group">
+            <label>Nama Orang Tua</label>
+            <input type="text" placeholder="Nama orang tua/wali">
+        </div>
+    </div>
+
+    <!-- BOX 2 -->
+    <div class="card">
+        <h3>Persetujuan Pengguna</h3>
+
+        <div class="question">
+            <p>1. Apakah Anda bersedia untuk mengikuti seluruh rangkaian asesmen kesehatan mental ini?</p>
+            <div class="radio-group">
+                <label><input type="radio" name="q1"> Ya</label>
+                <label><input type="radio" name="q1"> Tidak</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. Apakah Anda bersedia jika data hasil asesmen Anda digunakan untuk analisis oleh tenaga profesional (psikolog) guna membantu pemahaman kondisi Anda?</p>
+            <div class="radio-group">
+                <label><input type="radio" name="q2"> Ya</label>
+                <label><input type="radio" name="q2"> Tidak</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Apakah Anda bersedia jika hasil asesmen Anda dapat dibagikan kepada pihak sekolah (Guru BK dan Wali Kelas) serta orang tua untuk keperluan pendampingan?</p>
+            <div class="radio-group">
+                <label><input type="radio" name="q3"> Ya</label>
+                <label><input type="radio" name="q3"> Tidak</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. Apakah Anda bersedia jika data hasil asesmen Anda digunakan dalam bentuk anonim (tanpa identitas) untuk keperluan pelaporan dan pengembangan program kesehatan mental?</p>
+            <div class="radio-group">
+                <label><input type="radio" name="q4"> Ya</label>
+                <label><input type="radio" name="q4"> Tidak</label>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="index.html" class="btn-submit">Lanjut ke Screening</a>
+
+</div>
+
+</body>
+</html>
